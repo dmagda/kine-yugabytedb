@@ -1,7 +1,7 @@
 # Kine With YugabyteDB
 ==========================
 
-This branch adds support for YugabyteDB backend. The YugabyteDB version is based on the PostgreSQL backend with several optimizations relevant for distributed SQL databases.
+This fork adds support for YugabyteDB backend. The YugabyteDB version is based on the PostgreSQL backend with several optimizations relevant for distributed SQL databases.
 
 To use the YugabyteDB backend, pass the `yugabytedb` as a driver name in your connection string. For instance, a complete connection string can look as follows:
 ```sql
